@@ -1,0 +1,13 @@
++ Objects in JS
+  - เกือบทุกอย่างเป็น object ยกเว้นพวก Primitive 
+    * Primitive เช่น Numbers, Strings, Booleans, Undefined, Null
+    * อื่นๆ เช่น Array, Functions, Objects, Date
+  - Standard หลังๆ เริ่มเป็น Objects หมด โดยการสร้าง
+  - Object-Oriented Programing ปกติจะเป็น blue print กำหนด methods, properties และสร้าง structure เพื่อเก็บข้อมูล เรียก Class
+  - ของ JS เรียก Constructure, Prototype จะสร้าง Instance ได้เหมือนกัน
+
++ Constructors คือ blue print สร้างหลายๆ object ได้ (สร้าง Instance)
++ Inheritance คือใช้ blue print อันเดิม (Parent) แต่เพิ่ม methods หรือ properties เข้าไป (Child)
++ JS จะเป็น Prototype Base
+  - Person Constructors ไปสร้าง Instance ชื่อ john สร้างมารถ inherite properties ได้
+  - Constructors object inherite มาจาก Prototype properties
